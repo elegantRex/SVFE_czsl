@@ -44,9 +44,6 @@ class FourierSpectralLayer(nn.Module):
         x = x.reshape(B, C, H, W)
         return x
 
-
-
-# LVC
 class Encoding(nn.Module):
     def __init__(self, in_channels, num_codes):
         super(Encoding, self).__init__()
